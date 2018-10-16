@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPStaticNativeAdRenderer.m \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPAdDestinationDisplayAgent.h \
+  othernetworks/MoPubSDK/Internal/Common/MPActivityViewControllerHelper+TweetShare.h \
+  othernetworks/MoPubSDK/Internal/Common/MPActivityViewControllerHelper.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLResolver.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPGlobal.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLActionInfo.h \
+  othernetworks/MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h \
+  othernetworks/MoPubSDK/Internal/Common/MPProgressOverlayView.h \
+  othernetworks/MoPubSDK/Internal/Common/MPAdBrowserController.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/HTML/MPWebView.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPStoreKitProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MOPUBDisplayAgentType.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPLogging.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPLogLevel.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdAdapter.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdConstants.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdError.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRenderer.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendererConfiguration.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdRendererConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdRendererImageHandler.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendering.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAd.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRenderingImageLoader.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeCache.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeView.h \
+  othernetworks/MoPubSDK/NativeAds/MPStaticNativeAdRenderer.h \
+  othernetworks/MoPubSDK/NativeAds/MPStaticNativeAdRendererSettings.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendererSettings.h

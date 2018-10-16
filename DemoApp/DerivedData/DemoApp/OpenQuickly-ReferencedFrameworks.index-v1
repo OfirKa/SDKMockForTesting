@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>GoogleMobileAds</string>
+	<string>iAd</string>
+	<string>AppLovinSDK</string>
+	<string>AVFoundation</string>
+	<string>CommonCrypto</string>
+	<string>CoreLocation</string>
+	<string>SafariServices</string>
+	<string>objc</string>
+	<string>MoPub</string>
+	<string>iSoma</string>
+	<string>MPUBMoatMobileAppKit</string>
+	<string>arpa</string>
+	<string>CoreFoundation</string>
+	<string>sys</string>
+	<string>MessageUI</string>
+	<string>CoreTelephony</string>
+	<string>CoreMedia</string>
+	<string>StoreKit</string>
+	<string>MMAdSDK</string>
+	<string>AdSupport</string>
+	<string>StartApp</string>
+	<string>Chartboost</string>
+	<string>WebKit</string>
+	<string>MobFoxSDKCoreDynamic</string>
+	<string>FBAudienceNetwork</string>
+	<string>MediaPlayer</string>
+	<string>XCTest</string>
+	<string>MobFoxSDKCore</string>
+	<string>Foundation</string>
+	<string>QuartzCore</string>
+	<string>netinet</string>
+	<string>SystemConfiguration</string>
+	<string>CoreGraphics</string>
+	<string>AmazonAd</string>
+	<string>UIKit</string>
+</array>
+</plist>

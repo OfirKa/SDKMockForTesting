@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/MPVASTTracking.m \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoImpressionAgent.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPAnalyticsTracker.h \
+  othernetworks/MoPubSDK/Internal/MPCoreInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPGlobal.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPURLResolver.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLActionInfo.h \
+  othernetworks/MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPLogging.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPLogLevel.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/VAST/MPVASTMacroProcessor.h \
+  othernetworks/MoPubSDK/Internal/MPVASTTracking.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPVideoConfig.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/VAST/MPVASTResponse.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTModel.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTCompanionAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTCreative.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTDurationOffset.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTIndustryIcon.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTInline.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTLinearAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTMediaFile.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTResource.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTTrackingEvent.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTWrapper.h

@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPTableViewAdPlacer.m \
+  othernetworks/MoPubSDK/NativeAds/MPTableViewAdPlacer.h \
+  othernetworks/MoPubSDK/NativeAds/MPClientAdPositioning.h \
+  othernetworks/MoPubSDK/NativeAds/MPAdPositioning.h \
+  othernetworks/MoPubSDK/NativeAds/MPServerAdPositioning.h \
+  othernetworks/MoPubSDK/NativeAds/MPStreamAdPlacer.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/MPInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPGlobal.h \
+  othernetworks/MoPubSDK/Internal/MPCoreInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPURLResolver.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLActionInfo.h \
+  othernetworks/MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPAdPlacerInvocation.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPTimer.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendering.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAd.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdUtils.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendererConfiguration.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPTableViewAdPlacerCell.h

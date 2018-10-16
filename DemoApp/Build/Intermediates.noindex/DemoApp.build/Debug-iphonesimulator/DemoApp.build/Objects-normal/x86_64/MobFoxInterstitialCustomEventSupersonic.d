@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/CustomEvents/Supersonic/MobFoxInterstitialCustomEventSupersonic.m \
+  CustomEvents/Supersonic/MobFoxInterstitialCustomEventSupersonic.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Modules/module.modulemap \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxNativeCustomEvent.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxInterstitialCustomEvent.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxCustomEvent.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxNativeAd.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxInterstitialAd.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxTagInterstitialAd.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxTagAd.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxSDKCore-Bridging-Header.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxScriptHandler.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MFEventsHandler.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MFConstants.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxNativeData.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxJSContext.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxInterstitialCustomEventRequest.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxWebView.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MFExceptionHandler.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MFLocationServicesManager.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxAd.h \
+  MobFoxSDKCore.embeddedframework/MobFoxSDKCore.framework/Headers/MobFoxSDKCore.h \
+  othernetworks/Supersonic.framework/Headers/Supersonic.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicConfiguration.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicConfigurationProtocol.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicGender.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicRVDelegate.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicOWDelegate.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicISDelegate.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicLogDelegate.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicPlacementInfo.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicIntegrationHelper.h \
+  othernetworks/Supersonic.framework/Headers/SupersonicEventsReporting.h

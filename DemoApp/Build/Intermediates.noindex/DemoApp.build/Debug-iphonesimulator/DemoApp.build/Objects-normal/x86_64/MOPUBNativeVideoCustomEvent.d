@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.m \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeAd.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeAdError.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdUtils.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeAdConstants.h \
+  othernetworks/MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoAdAdapter.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeAdAdapter.h \
+  othernetworks/MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoAdConfigValues.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdConfigValues.h \
+  othernetworks/MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeCustomEvent.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeCustomEventDelegate.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPLogging.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPLogLevel.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPVideoConfig.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/VAST/MPVASTResponse.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTModel.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTCompanionAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTCreative.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTDurationOffset.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTIndustryIcon.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTInline.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTLinearAd.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTMediaFile.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTResource.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTTrackingEvent.h \
+  othernetworks/MoPubSDK/Internal/VAST/MPVASTWrapper.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/VAST/MPVASTManager.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAd+Internal.h

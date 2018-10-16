@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Interstitials/MPInterstitialCustomEventAdapter.m \
+  othernetworks/MoPubSDK/Internal/Interstitials/MPInterstitialCustomEventAdapter.h \
+  othernetworks/MoPubSDK/Internal/Interstitials/MPBaseInterstitialAdapter.h \
+  othernetworks/MoPubSDK/Internal/Interstitials/MPPrivateInterstitialCustomEventDelegate.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPInterstitialCustomEventDelegate.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPAdConfiguration.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPGlobal.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPLogging.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPLogLevel.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/MPInstanceProvider.h \
+  othernetworks/MoPubSDK/Internal/MPCoreInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPURLResolver.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLActionInfo.h \
+  othernetworks/MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPInterstitialCustomEvent.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPInterstitialAdController.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/HTML/MPHTMLInterstitialCustomEvent.h \
+  othernetworks/MoPubSDK/Internal/HTML/MPHTMLInterstitialViewController.h \
+  othernetworks/MoPubSDK/Internal/HTML/MPAdWebViewAgent.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPAdDestinationDisplayAgent.h \
+  othernetworks/MoPubSDK/Internal/Common/MPActivityViewControllerHelper+TweetShare.h \
+  othernetworks/MoPubSDK/Internal/Common/MPActivityViewControllerHelper.h \
+  othernetworks/MoPubSDK/Internal/Common/MPProgressOverlayView.h \
+  othernetworks/MoPubSDK/Internal/Common/MPAdBrowserController.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/HTML/MPWebView.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPStoreKitProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MOPUBDisplayAgentType.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Interstitials/MPInterstitialViewController.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/MRAID/MPMRAIDInterstitialCustomEvent.h \
+  othernetworks/MoPubSDK/Internal/MRAID/MPMRAIDInterstitialViewController.h \
+  othernetworks/MoPubSDK/Internal/MRAID/MPForceableOrientationProtocol.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPRealTimeTimer.h

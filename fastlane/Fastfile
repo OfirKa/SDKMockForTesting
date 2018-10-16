@@ -1,0 +1,222 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+#
+# Created by Ofir Kariv 1/2/18
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+# 
+
+SelfDir = File.expand_path('../..', __FILE__).to_s #Path to SDK folder
+
+
+def deleteFW (path)
+     choose = prompt(text: "delete " + path.to_s + "?\n press 1 to continue, 0 to exit: ").to_i
+    if choose.to_i == 0 
+    abort UI.user_error!("program was forced exit by user")
+else
+     sh("rm -rf " + path.to_s)
+    end
+end
+
+def copyFW (corePath, sdkPath)
+    choose = prompt(text: "copy " + corePath.to_s + " " +  sdkPath.to_s + "?\n press 1 to continue, 0 to exit: ").to_i
+    if choose.to_i == 0 
+    abort UI.user_error!("program was forced exit by user")
+    else
+     sh("cp -r " + corePath.to_s + " " + sdkPath)
+    end
+end
+
+def checkPodJson(tagName)
+require 'json'
+flag = true
+file = File.read(SelfDir + "/MobFoxSDk.podspec.json")
+data_hash = JSON.parse(file)
+
+if data_hash['version'] != tagName
+  puts "wrong version in file: /MobFoxSDk.podspec.json"  
+  flag = false
+end
+
+source = data_hash['source']
+if source['tag'] != tagName
+  puts "wrong tag in file: /MobFoxSDk.podspec.json"
+  flag = false
+end   
+return flag
+end 
+
+
+
+def checkPods(tagName)
+flag = true    
+podsFiles = SelfDir + "/*.podspec" 
+puts podsFiles
+Dir[podsFiles].each do |fname|
+   puts fname
+      content = File.read(fname)
+      reg = ("s.version          = " + '"' + tagName + '"')
+      if !(content.strip =~ Regexp.new(reg.strip))
+       puts "Wrong version in file: " + fname  
+       flag = false
+       end
+   end
+  return flag 
+end
+
+
+def changeFW()
+#selfDir = File.expand_path('../../..', __FILE__).to_s #Path to SDK folder
+releaseDir = File.expand_path('../../../MobFox-iOS-SDK-Core/Build/Products/Release-universal', __FILE__).to_s  # Path to Core folder
+staEmbSuffix = "/MobFoxSDKCore.embeddedframework"
+dynEmbSuffix = "/MobFoxSDKCoreDynamic.embeddedframework"
+staFWSuffix = "/MobFoxSDKCore.framework"
+dynFWSuffix = "/MobFoxSDKCoreDynamic.framework"
+UI.message "Deleting static FW"
+deleteFW(SelfDir.to_s + staEmbSuffix.to_s + staFWSuffix.to_s)   
+UI.message "Deleting dynamic FW"
+deleteFW(SelfDir.to_s + dynEmbSuffix.to_s + dynFWSuffix.to_s)  
+UI.message "Copying static FW"
+copyFW((releaseDir.to_s + staEmbSuffix.to_s + staFWSuffix.to_s) , (SelfDir.to_s + staEmbSuffix.to_s))
+UI.message "Copying dynamic FW"
+copyFW((releaseDir.to_s + dynEmbSuffix.to_s + dynFWSuffix.to_s) , (SelfDir.to_s + dynEmbSuffix.to_s))
+end
+
+def sdkTests()
+ xcodebuild(project:"./DemoApp/DemoApp.xcodeproj",
+        scheme: "DemoApp",
+        ENABLE_BITCODE:false,
+    
+    )
+
+    xcodebuild(project:"./DemoApp/DemoApp.xcodeproj",
+        scheme: "DemoApp",
+        ENABLE_BITCODE:true,
+    
+    )
+
+    xcodebuild(project:"./DemoApp/DemoApp.xcodeproj",
+        scheme: "DemoAppDynamic",
+        ENABLE_BITCODE:false,
+    
+    )
+
+   
+    xcodebuild(project:"./DemoApp/DemoApp.xcodeproj",
+        scheme: "DemoAppDynamic",
+        ENABLE_BITCODE:true,
+    
+    )
+
+end
+
+
+
+default_platform(:ios)
+UI.message "** Important! If SDK Core tests was failed, please do not continue and press 0 **"  
+platform :ios do
+  
+desc "Runs tests on your current directory. This option doesn't pull/push/commit or reset git. Make sure you save it on the correct directory. "
+
+lane :Manually_Run_Tests do
+sdkTests()
+end
+
+
+desc "Pull latest sdk version, Runs tests on SDK, get frameworks from sdk and resets your SDK back to the latest git version, any other changes would be deleted. Make sure you run this option only after you've ran SDK_Core test with successs."
+
+lane :Run_Tests_And_Reset do
+choose = prompt(text: "pull from git? (Y/N)")
+if choose == "y" or choose == "Y"
+git_pull
+end
+changeFW()
+sdkTests()
+choose = prompt(text: "do you want to reset to the last git version? (git reset --hard)")
+if choose == "y" or choose == "Y"
+reset_git_repo(force: true, exclude: 'fastlane')
+end
+end
+
+
+
+
+#/////////// VERSION UPLOAD \\\\\\\\\\\\\\\
+desc "Runs Tests, tagging, checking pod, commiting and pushing the new version."
+lane :Version_Upload do
+path = File.expand_path('../../../MobFox-iOS-SDK-Core/fastlane', __FILE__).to_s
+tagName = File.read(path + "/tags_recent.txt")
+choose = prompt(text: "pull from git? (Y/N)")
+if choose == "y" or choose == "Y"
+git_pull
+end
+
+UI.message "Creating new branch with the name - " + "ToBePushed" + tagName.to_s
+
+choose = prompt(text: "is " + tagName.to_s + " the correct tag? (Y/N)")
+unless choose == "y" or choose == "Y"
+tagName = prompt(text: "please enter remote tag name: ")
+
+break if choose == "y" or choose == "Y"
+end
+branchName = "toBePushed" + tagName.to_s
+sh("cd .. && git checkout -b toBePushed" + tagName.to_s)
+
+changeFW()
+sdkTests()
+while (checkPods(tagName)!=true || checkPodJson(tagName)!=true)
+UI.message("\033[0m \033[41m")
+    UI.message("It seems like you didn't update your podspecs files. Please check MobFoxSDK_AdMobAdapter.podspec , MobFoxSDK_MoPubAdapter.podspec , MobFoxSDK.podspec.json")
+    choose = prompt(text: "Please complete the insturctions and than press 1 to continue").to_i    
+    UI.message "\033[0m"    
+end
+#/////
+
+
+
+#//////    
+
+#sh("cd ../.. && git add .")
+UI.message "git add ."
+git_add(path: ".")
+
+
+UI.message "git add tag - " + tagName
+add_git_tag(tag: tagName.to_s)
+
+UI.message "git tag push" 
+push_git_tags
+
+
+
+
+UI.message "Ready to commit new version? Please enter commit message (Y/N)"
+commitMess = gets
+
+puts commitMess
+#sh("cd ../.. && git commit -m " + commitMess.to_s)
+git_commit(path:'.', message: commitMess)
+
+UI.message "do you want to push? (Y/N)"
+choose = gets.chomp
+if choose.to_s == "Y" or choose.to_s == "y"
+UI.message "git push"
+push_to_git_remote( local_branch: branchName)
+end
+    
+end
+
+lane :ofirTests do
+
+if checkPods("t.t.c")
+ puts "check pods json true"
+else
+    puts "check pods json false"    
+end
+end
+end

@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPStreamAdPlacer.m \
+  othernetworks/MoPubSDK/NativeAds/MPAdPositioning.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/MPInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPGlobal.h \
+  othernetworks/MoPubSDK/Internal/MPCoreInstanceProvider.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Common/MPURLResolver.h \
+  othernetworks/MoPubSDK/Internal/Common/MPURLActionInfo.h \
+  othernetworks/MoPubSDK/Internal/Common/MPEnhancedDeeplinkRequest.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/Internal/Utility/MPLogging.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPConstants.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/MPLogLevel.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAd+Internal.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/MPNativeAd.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdData.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdDelegate.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendererConfiguration.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeAdRendererConstants.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRendering.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdSource.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdSourceDelegate.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativePositionSource.h \
+  /Users/ofirkariv/Desktop/151018/push/MobFox-iOS-SDK/DemoApp/othernetworks/MoPubSDK/NativeAds/Internal/MPNativeView.h \
+  othernetworks/MoPubSDK/NativeAds/MPServerAdPositioning.h \
+  othernetworks/MoPubSDK/NativeAds/MPStaticNativeAdRenderer.h \
+  othernetworks/MoPubSDK/NativeAds/MPNativeAdRenderer.h \
+  othernetworks/MoPubSDK/NativeAds/MPStreamAdPlacementData.h \
+  othernetworks/MoPubSDK/NativeAds/MPStreamAdPlacer.h \
+  othernetworks/MoPubSDK/NativeAds/MPClientAdPositioning.h
